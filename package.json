@@ -1,0 +1,30 @@
+{
+  "name": "api-produtoslivraria",
+  "version": "1.0.0",
+  "description": "Api de produtos de uma livraria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloves-Jose/api-ProdutosLivraria.git"
+  },
+  "author": "Cloves José",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloves-Jose/api-ProdutosLivraria/issues"
+  },
+  "homepage": "https://github.com/Cloves-Jose/api-ProdutosLivraria#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.16.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
